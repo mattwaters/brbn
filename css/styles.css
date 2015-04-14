@@ -1,0 +1,50 @@
+/* line 4, ../neat/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, ../neat/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 3, ../sass/styles.scss */
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, ../bourbon/addons/_clearfix.scss */
+.container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 6, ../sass/styles.scss */
+.header-left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  background-color: #ff9900;
+}
+/* line 89, ../neat/grid/_span-columns.scss */
+.header-left:last-child {
+  margin-right: 0;
+}
+
+/* line 11, ../sass/styles.scss */
+.header-right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  background-color: #999900;
+}
+/* line 89, ../neat/grid/_span-columns.scss */
+.header-right:last-child {
+  margin-right: 0;
+}

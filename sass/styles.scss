@@ -1,0 +1,15 @@
+@import "../bourbon/bourbon";
+@import "../neat/neat";
+.container {
+    @include outer-container;
+}
+.header-left {
+    @include span-columns(6);
+    @include omega;
+    background-color: #ff9900;
+}
+.header-right {
+    @include span-columns(6);
+    @include omega;
+    background-color: #999900;
+}
