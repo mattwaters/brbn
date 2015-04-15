@@ -22,29 +22,69 @@ html {
 }
 
 /* line 6, ../sass/styles.scss */
-.header-left {
+.channel-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-right: 0;
-  background-color: #ff9900;
+  width: 23.23176%;
+  background-color: #0B1818;
+  color: #363B45;
+  height: 100%;
+  padding: 2em 1em;
 }
 /* line 89, ../neat/grid/_span-columns.scss */
-.header-left:last-child {
+.channel-left:last-child {
   margin-right: 0;
+}
+/* line 12, ../sass/styles.scss */
+.channel-left ul {
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-/* line 11, ../sass/styles.scss */
-.header-right {
+/* line 18, ../sass/styles.scss */
+.channel-right {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
+  width: 74.41059%;
   margin-right: 0;
-  background-color: #999900;
+  background-color: #152323;
+  color: #363B45;
+  height: 100%;
+  padding: 2em 2.5em;
 }
 /* line 89, ../neat/grid/_span-columns.scss */
-.header-right:last-child {
+.channel-right:last-child {
   margin-right: 0;
+}
+/* line 25, ../sass/styles.scss */
+.channel-right h1 {
+  margin: 0;
+  font-size: 2.25em;
+  text-shadow: 1px 1px #0B1818;
+}
+/* line 31, ../sass/styles.scss */
+.channel-right article h2 {
+  font-size: 1.6em;
+  text-shadow: 1px 1px #0B1818;
+  margin: .5em 0;
+}
+
+/* line 39, ../sass/styles.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 42, ../sass/styles.scss */
+body {
+  padding: 3% 3%;
+  background-color: #051010;
+}
+
+/* line 46, ../sass/styles.scss */
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }

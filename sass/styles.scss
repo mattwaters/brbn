@@ -3,13 +3,47 @@
 .container {
     @include outer-container;
 }
-.header-left {
-    @include span-columns(6);
-    @include omega;
-    background-color: #ff9900;
+.channel-left {
+    @include span-columns(3);
+    background-color: #0B1818;
+    color: #363B45;
+    height: 100%;
+    padding: 2em 1em;
+    ul {
+        margin-top: 0;
+        padding: 0;
+        list-style-type: none;
+    }
 }
-.header-right {
-    @include span-columns(6);
+.channel-right {
+    @include span-columns(9);
     @include omega;
-    background-color: #999900;
+    background-color: #152323;
+    color: #363B45;
+    height: 100%;
+    padding: 2em 2.5em;
+    h1 {
+        margin: 0;
+        font-size: 2.25em;
+        text-shadow: 1px 1px #0B1818;
+    }
+    article {
+        h2 {
+            font-size: 1.6em;
+            text-shadow: 1px 1px #0B1818;
+            margin: .5em 0;
+        }
+    }
+    
+}
+html, body {
+    height: 100%;
+}
+body {
+    padding: 3% 3%;
+    background-color: #051010;
+}
+html {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
 }
